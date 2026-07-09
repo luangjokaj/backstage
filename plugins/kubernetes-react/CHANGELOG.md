@@ -1,5 +1,14 @@
 # @backstage/plugin-kubernetes-react
 
+## 0.5.22
+
+### Patch Changes
+
+- 2ed90cd: Fixed the published configuration schema so that it no longer references a file that is excluded from the package. This previously caused configuration schema extraction to fail in apps that depend on this plugin.
+- Updated dependencies
+  - @backstage/core-components@0.18.12
+  - @backstage/core-plugin-api@1.12.8
+
 ## 0.5.22-next.1
 
 ### Patch Changes

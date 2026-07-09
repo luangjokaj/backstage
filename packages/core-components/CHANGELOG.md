@@ -1,5 +1,14 @@
 # @backstage/core-components
 
+## 0.18.12
+
+### Patch Changes
+
+- 7ceeaad: Migrated CopyTextButton component from Material-UI to Backstage UI (BUI). Replaced MUI IconButton and Tooltip with BUI ButtonIcon and TooltipTrigger/Tooltip components. This is an internal refactoring that maintains backward compatibility - the component API remains unchanged.
+- Updated dependencies
+  - @backstage/ui@0.17.0
+  - @backstage/core-plugin-api@1.12.8
+
 ## 0.18.12-next.1
 
 ### Patch Changes
