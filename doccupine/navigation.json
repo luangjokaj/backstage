@@ -380,7 +380,7 @@
             "title": "Troubleshooting"
           },
           {
-            "slug": "features/techdocs/FAQ",
+            "slug": "features/techdocs/faq",
             "title": "FAQ"
           }
         ]
@@ -437,11 +437,11 @@
         "title": "Bitbucket Cloud",
         "links": [
           {
-            "slug": "integrations/bitbucketCloud/locations",
+            "slug": "integrations/bitbucketcloud/locations",
             "title": "Locations"
           },
           {
-            "slug": "integrations/bitbucketCloud/discovery",
+            "slug": "integrations/bitbucketcloud/discovery",
             "title": "Discovery"
           }
         ]
@@ -450,11 +450,11 @@
         "title": "Bitbucket Server",
         "links": [
           {
-            "slug": "integrations/bitbucketServer/locations",
+            "slug": "integrations/bitbucketserver/locations",
             "title": "Locations"
           },
           {
-            "slug": "integrations/bitbucketServer/discovery",
+            "slug": "integrations/bitbucketserver/discovery",
             "title": "Discovery"
           }
         ]
@@ -722,7 +722,7 @@
             "title": "Bitbucket"
           },
           {
-            "slug": "auth/bitbucketServer/provider",
+            "slug": "auth/bitbucketserver/provider",
             "title": "Bitbucket Server"
           },
           {
