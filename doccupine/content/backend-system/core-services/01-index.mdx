@@ -1,0 +1,39 @@
+---
+title: "Core Backend Service APIs"
+description: "Core backend service APIs"
+---
+
+# Core Backend Service APIs
+
+The default backend provides several [core services](https://github.com/backstage/backstage/blob/master/packages/backend-plugin-api/src/services/definitions/coreServices.ts) out of the box which includes access to configuration, logging, URL Readers, databases and more.
+
+All core services are available through the `coreServices` namespace in the `@backstage/backend-plugin-api` package:
+
+```ts
+import { coreServices } from '@backstage/backend-plugin-api';
+```
+
+## Service Documentation Index
+
+- [Auth Service](/backend-system/core-services/auth) - Token authentication and credentials management.
+- [Cache Service](/backend-system/core-services/cache) - Key-value store for caching data.
+- [Database Service](/backend-system/core-services/database) - Database access and management via [knex](https://knexjs.org/).
+- [Discovery Service](/backend-system/core-services/discovery) - Service discovery for inter-plugin communication.
+- [Http Auth Service](/backend-system/core-services/http-auth) - Authentication of HTTP requests.
+- [Http Router Service](/backend-system/core-services/http-router) - HTTP route registration for plugins.
+- [Identity Service](/backend-system/core-services/identity) - Deprecated user authentication service, use the [Auth Service](/backend-system/core-services/auth) instead.
+- [Lifecycle Service](/backend-system/core-services/lifecycle) - Registration of plugin startup and shutdown lifecycle hooks.
+- [Logger Service](/backend-system/core-services/logger) - Plugin-level logging.
+- [Metrics Service](/backend-system/core-services/metrics) - Plugin-scoped metrics instrumentation (alpha).
+- [Permissions Service](/backend-system/core-services/permissions) - Permission system integration for authorization of user actions.
+- [Plugin Metadata Service](/backend-system/core-services/plugin-metadata) - Built-in service for accessing metadata about the current plugin.
+- [Root Config Service](/backend-system/core-services/root-config) - Access to static configuration.
+- [Root Health Service](/backend-system/core-services/root-health) - Health check endpoints for the backend.
+- [Root Http Router Service](/backend-system/core-services/root-http-router) - HTTP route registration for root services.
+- [Root Lifecycle Service](/backend-system/core-services/root-lifecycle) - Registration of backend startup and shutdown lifecycle hooks.
+- [Root Logger Service](/backend-system/core-services/root-logger) - Root-level logging.
+- [Scheduler Service](/backend-system/core-services/scheduler) - Scheduling of distributed background tasks.
+- [Token Manager Service](/backend-system/core-services/token-manager) - Deprecated service authentication service, use the [Auth Service](/backend-system/core-services/auth) instead.
+- [Tracing Service](/backend-system/core-services/tracing) - Plugin-scoped trace span emission with built-in principal enrichment (alpha).
+- [Url Reader Service](/backend-system/core-services/url-reader) - Reading content from external systems.
+- [User Info Service](/backend-system/core-services/user-info) - Authenticated user information retrieval.
