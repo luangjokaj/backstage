@@ -1,6 +1,7 @@
 {
   "name": "Backstage",
   "description": "Main documentation for Backstage features and framework APIs",
-  "url": "https://backstage.io/docs",
-  "icon": "/favicon.ico"
+  "url": "https://backstage-eight-xi.doccupine.app",
+  "icon": "/favicon.ico",
+  "image": "/preview.png"
 }
