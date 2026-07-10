@@ -191,3 +191,5 @@ dist-storybook/
 # Personal allow patterns etc
 .claude/settings.local.json
 .claude/worktrees/
+
+doccupine/nextjs-app/**

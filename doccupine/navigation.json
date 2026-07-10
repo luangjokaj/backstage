@@ -1,0 +1,1019 @@
+[
+  {
+    "label": "Overview",
+    "links": [
+      {
+        "slug": "",
+        "title": "What is Backstage?"
+      },
+      {
+        "slug": "overview/technical-overview",
+        "title": "Technical overview"
+      },
+      {
+        "slug": "overview/architecture-overview",
+        "title": "Architecture overview"
+      },
+      {
+        "slug": "overview/roadmap",
+        "title": "Project Roadmap"
+      },
+      {
+        "slug": "overview/vision",
+        "title": "Vision"
+      },
+      {
+        "slug": "overview/background",
+        "title": "The Spotify Story"
+      },
+      {
+        "slug": "overview/adopting",
+        "title": "Strategies for adopting"
+      },
+      {
+        "slug": "overview/versioning-policy",
+        "title": "Release & Versioning Policy"
+      },
+      {
+        "slug": "overview/threat-model",
+        "title": "Backstage Threat Model"
+      },
+      {
+        "slug": "overview/support",
+        "title": "Support and community"
+      },
+      {
+        "slug": "overview/logos",
+        "title": "Logo assets"
+      }
+    ]
+  },
+  {
+    "label": "Getting Started",
+    "links": [
+      {
+        "slug": "getting-started",
+        "title": "Creating your Backstage App"
+      },
+      {
+        "title": "Configuring Backstage",
+        "links": [
+          {
+            "slug": "getting-started/config/database",
+            "title": "Database"
+          },
+          {
+            "slug": "getting-started/config/authentication",
+            "title": "Authentication"
+          },
+          {
+            "slug": "getting-started/configure-app-with-plugins",
+            "title": "Configuring App with plugins"
+          },
+          {
+            "slug": "conf/user-interface",
+            "title": "Customize the look-and-feel of your App"
+          },
+          {
+            "slug": "getting-started/homepage",
+            "title": "Customizing your Homepage"
+          }
+        ]
+      },
+      {
+        "title": "Deployment",
+        "links": [
+          {
+            "slug": "deployment",
+            "title": "Deploying Backstage"
+          },
+          {
+            "slug": "deployment/scaling",
+            "title": "Scaling"
+          },
+          {
+            "slug": "deployment/docker",
+            "title": "Docker"
+          },
+          {
+            "slug": "deployment/k8s",
+            "title": "Kubernetes"
+          }
+        ]
+      },
+      {
+        "title": "Using Backstage",
+        "links": [
+          {
+            "slug": "getting-started/logging-in",
+            "title": "Logging in"
+          },
+          {
+            "slug": "getting-started/viewing-catalog",
+            "title": "Viewing the Catalog"
+          },
+          {
+            "slug": "getting-started/view-what-you-own",
+            "title": "Viewing what you own"
+          },
+          {
+            "slug": "getting-started/viewing-entity-relationships",
+            "title": "Viewing entity relationships"
+          },
+          {
+            "slug": "getting-started/filter-catalog",
+            "title": "Filtering the Catalog"
+          },
+          {
+            "title": "Managing Components",
+            "links": [
+              {
+                "slug": "getting-started/register-a-component",
+                "title": "Register a component"
+              },
+              {
+                "slug": "getting-started/create-a-component",
+                "title": "Create a component"
+              },
+              {
+                "slug": "getting-started/update-a-component",
+                "title": "Update a component"
+              },
+              {
+                "slug": "getting-started/unregister-delete-component",
+                "title": "Unregister/delete a component"
+              }
+            ]
+          },
+          {
+            "slug": "features/techdocs/creating-and-publishing",
+            "title": "Creating and Publishing Documentation"
+          }
+        ]
+      },
+      {
+        "slug": "getting-started/keeping-backstage-updated",
+        "title": "Keeping Backstage Updated"
+      }
+    ]
+  },
+  {
+    "label": "Core Features",
+    "links": [
+      {
+        "title": "Software Catalog",
+        "links": [
+          {
+            "slug": "features/software-catalog",
+            "title": "Overview"
+          },
+          {
+            "slug": "features/software-catalog/life-of-an-entity",
+            "title": "The Life of an Entity"
+          },
+          {
+            "slug": "features/software-catalog/configuration",
+            "title": "Catalog Configuration"
+          },
+          {
+            "slug": "features/software-catalog/system-model",
+            "title": "System Model"
+          },
+          {
+            "slug": "features/software-catalog/descriptor-format",
+            "title": "YAML File Format"
+          },
+          {
+            "slug": "features/software-catalog/references",
+            "title": "Entity References"
+          },
+          {
+            "slug": "features/software-catalog/well-known-annotations",
+            "title": "Well-known Annotations"
+          },
+          {
+            "slug": "features/software-catalog/well-known-relations",
+            "title": "Well-known Relations"
+          },
+          {
+            "slug": "features/software-catalog/well-known-statuses",
+            "title": "Well-known Statuses"
+          },
+          {
+            "slug": "features/software-catalog/extending-the-model",
+            "title": "Extending the model"
+          },
+          {
+            "slug": "features/software-catalog/external-integrations",
+            "title": "External integrations"
+          },
+          {
+            "slug": "features/software-catalog/catalog-customization",
+            "title": "Catalog Customization"
+          },
+          {
+            "slug": "features/software-catalog/entity-presentation",
+            "title": "Entity Presentation"
+          },
+          {
+            "slug": "features/software-catalog/api",
+            "title": "API"
+          },
+          {
+            "slug": "features/software-catalog/faq",
+            "title": "FAQ"
+          }
+        ]
+      },
+      {
+        "title": "Kubernetes",
+        "links": [
+          {
+            "slug": "features/kubernetes",
+            "title": "Overview"
+          },
+          {
+            "slug": "features/kubernetes/installation",
+            "title": "Installation"
+          },
+          {
+            "slug": "features/kubernetes/configuration",
+            "title": "Configuration"
+          },
+          {
+            "slug": "features/kubernetes/authentication",
+            "title": "Authentication"
+          },
+          {
+            "slug": "features/kubernetes/troubleshooting",
+            "title": "Troubleshooting"
+          }
+        ]
+      },
+      {
+        "title": "Software Templates",
+        "links": [
+          {
+            "slug": "features/software-templates",
+            "title": "Overview"
+          },
+          {
+            "slug": "features/software-templates/configuration",
+            "title": "Configuration"
+          },
+          {
+            "slug": "features/software-templates/adding-templates",
+            "title": "Adding your own Templates"
+          },
+          {
+            "slug": "features/software-templates/writing-templates",
+            "title": "Writing Templates"
+          },
+          {
+            "slug": "features/software-templates/input-examples",
+            "title": "Input Examples"
+          },
+          {
+            "slug": "features/software-templates/builtin-actions",
+            "title": "Builtin Actions"
+          },
+          {
+            "slug": "features/software-templates/writing-custom-actions",
+            "title": "Writing Custom Actions"
+          },
+          {
+            "slug": "features/software-templates/writing-custom-step-layouts",
+            "title": "Writing Custom Step Layouts"
+          },
+          {
+            "slug": "features/software-templates/templating-extensions",
+            "title": "Templating Extensions"
+          },
+          {
+            "slug": "features/software-templates/dry-run-testing",
+            "title": "Dry Run Testing"
+          }
+        ]
+      },
+      {
+        "title": "Backstage Search",
+        "links": [
+          {
+            "slug": "features/search",
+            "title": "Overview"
+          },
+          {
+            "slug": "features/search/getting-started",
+            "title": "Getting Started"
+          },
+          {
+            "slug": "features/search/concepts",
+            "title": "Concepts"
+          },
+          {
+            "slug": "features/search/architecture",
+            "title": "Search Architecture"
+          },
+          {
+            "slug": "features/search/search-engines",
+            "title": "Search Engines"
+          },
+          {
+            "slug": "features/search/collators",
+            "title": "Collators"
+          },
+          {
+            "slug": "features/search/how-to-guides",
+            "title": "HOW TO guides"
+          }
+        ]
+      },
+      {
+        "title": "TechDocs",
+        "links": [
+          {
+            "slug": "features/techdocs",
+            "title": "Overview"
+          },
+          {
+            "slug": "features/techdocs/getting-started",
+            "title": "Getting Started"
+          },
+          {
+            "slug": "features/techdocs/concepts",
+            "title": "Concepts"
+          },
+          {
+            "slug": "features/techdocs/architecture",
+            "title": "TechDocs Architecture"
+          },
+          {
+            "slug": "features/techdocs/creating-and-publishing",
+            "title": "Creating and Publishing Documentation"
+          },
+          {
+            "slug": "features/techdocs/configuration",
+            "title": "TechDocs Configuration Options"
+          },
+          {
+            "slug": "features/techdocs/using-cloud-storage",
+            "title": "Using Cloud Storage"
+          },
+          {
+            "slug": "features/techdocs/configuring-ci-cd",
+            "title": "Configuring CI/CD to generate and publish TechDocs sites"
+          },
+          {
+            "slug": "features/techdocs/cli",
+            "title": "CLI"
+          },
+          {
+            "slug": "features/techdocs/how-to-guides",
+            "title": "HOW TO guides"
+          },
+          {
+            "slug": "features/techdocs/extensions",
+            "title": "Extensions"
+          },
+          {
+            "slug": "features/techdocs/troubleshooting",
+            "title": "Troubleshooting"
+          },
+          {
+            "slug": "features/techdocs/FAQ",
+            "title": "FAQ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Integrations",
+    "links": [
+      {
+        "slug": "integrations",
+        "title": "Overview"
+      },
+      {
+        "title": "AWS S3",
+        "links": [
+          {
+            "slug": "integrations/aws-s3/locations",
+            "title": "Locations"
+          },
+          {
+            "slug": "integrations/aws-s3/discovery",
+            "title": "Discovery"
+          }
+        ]
+      },
+      {
+        "title": "AWS CodeCommit",
+        "links": [
+          {
+            "slug": "integrations/aws-codecommit/locations",
+            "title": "Locations"
+          }
+        ]
+      },
+      {
+        "title": "Azure",
+        "links": [
+          {
+            "slug": "integrations/azure/locations",
+            "title": "Locations"
+          },
+          {
+            "slug": "integrations/azure/discovery",
+            "title": "Discovery"
+          },
+          {
+            "slug": "integrations/azure/org",
+            "title": "Org Data"
+          }
+        ]
+      },
+      {
+        "title": "Bitbucket Cloud",
+        "links": [
+          {
+            "slug": "integrations/bitbucketCloud/locations",
+            "title": "Locations"
+          },
+          {
+            "slug": "integrations/bitbucketCloud/discovery",
+            "title": "Discovery"
+          }
+        ]
+      },
+      {
+        "title": "Bitbucket Server",
+        "links": [
+          {
+            "slug": "integrations/bitbucketServer/locations",
+            "title": "Locations"
+          },
+          {
+            "slug": "integrations/bitbucketServer/discovery",
+            "title": "Discovery"
+          }
+        ]
+      },
+      {
+        "title": "Datadog",
+        "links": [
+          {
+            "slug": "integrations/datadog-rum/installation",
+            "title": "Installation"
+          }
+        ]
+      },
+      {
+        "title": "Gerrit",
+        "links": [
+          {
+            "slug": "integrations/gerrit/locations",
+            "title": "Locations"
+          },
+          {
+            "slug": "integrations/gerrit/discovery",
+            "title": "Discovery"
+          }
+        ]
+      },
+      {
+        "title": "GitHub",
+        "links": [
+          {
+            "slug": "integrations/github/locations",
+            "title": "Locations"
+          },
+          {
+            "slug": "integrations/github/discovery",
+            "title": "Discovery"
+          },
+          {
+            "slug": "integrations/github/org",
+            "title": "Org Data"
+          },
+          {
+            "slug": "integrations/github/github-apps",
+            "title": "GitHub Apps"
+          }
+        ]
+      },
+      {
+        "title": "GitLab",
+        "links": [
+          {
+            "slug": "integrations/gitlab/locations",
+            "title": "Locations"
+          },
+          {
+            "slug": "integrations/gitlab/discovery",
+            "title": "Discovery"
+          }
+        ]
+      },
+      {
+        "title": "Gitea",
+        "links": [
+          {
+            "slug": "integrations/gitea/locations",
+            "title": "Locations"
+          },
+          {
+            "slug": "integrations/gitea/discovery",
+            "title": "Discovery"
+          }
+        ]
+      },
+      {
+        "title": "Google GCS",
+        "links": [
+          {
+            "slug": "integrations/google-cloud-storage/locations",
+            "title": "Locations"
+          }
+        ]
+      },
+      {
+        "title": "LDAP",
+        "links": [
+          {
+            "slug": "integrations/ldap/org",
+            "title": "Org Data"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Plugins (Legacy)",
+    "links": [
+      {
+        "slug": "plugins",
+        "title": "Intro to plugins"
+      },
+      {
+        "slug": "plugins/create-a-plugin",
+        "title": "Create a Backstage Plugin"
+      },
+      {
+        "slug": "plugins/plugin-development",
+        "title": "Plugin Development"
+      },
+      {
+        "slug": "plugins/structure-of-a-plugin",
+        "title": "Structure of a plugin"
+      },
+      {
+        "slug": "plugins/integrating-plugin-into-software-catalog",
+        "title": "Integrate into the Software Catalog"
+      },
+      {
+        "slug": "plugins/composability",
+        "title": "Composability System"
+      },
+      {
+        "slug": "plugins/analytics",
+        "title": "Plugin Analytics"
+      },
+      {
+        "slug": "plugins/feature-flags",
+        "title": "Feature Flags"
+      },
+      {
+        "slug": "plugins/internationalization",
+        "title": "Internationalization (i18n)"
+      },
+      {
+        "title": "OpenAPI",
+        "links": [
+          {
+            "slug": "openapi/01-getting-started",
+            "title": "Schema-first plugins with OpenAPI (Experimental)"
+          },
+          {
+            "slug": "openapi/generate-client",
+            "title": "Generate a client from your OpenAPI spec"
+          },
+          {
+            "slug": "openapi/test-case-validation",
+            "title": "Validate your OpenAPI spec against test data"
+          }
+        ]
+      },
+      {
+        "title": "Backends and APIs",
+        "links": [
+          {
+            "slug": "plugins/proxying",
+            "title": "Proxying"
+          },
+          {
+            "slug": "plugins/backend-plugin",
+            "title": "Backend plugin"
+          },
+          {
+            "slug": "plugins/call-existing-api",
+            "title": "Call existing API"
+          }
+        ]
+      },
+      {
+        "title": "Testing",
+        "links": [
+          {
+            "slug": "plugins/testing",
+            "title": "Testing with Jest"
+          }
+        ]
+      },
+      {
+        "title": "Publishing",
+        "links": [
+          {
+            "slug": "plugins/add-to-directory",
+            "title": "Add to Directory"
+          },
+          {
+            "slug": "plugins/observability",
+            "title": "Observability"
+          }
+        ]
+      },
+      {
+        "slug": "plugins/new-backend-system",
+        "title": "New Backend System"
+      }
+    ]
+  },
+  {
+    "label": "Configuration",
+    "links": [
+      {
+        "slug": "conf",
+        "title": "Static Configuration in Backstage"
+      },
+      {
+        "slug": "conf/reading",
+        "title": "Reading Backstage Configuration"
+      },
+      {
+        "slug": "conf/writing",
+        "title": "Writing Backstage Configuration"
+      },
+      {
+        "slug": "conf/defining",
+        "title": "Defining Configuration for your Plugin"
+      }
+    ]
+  },
+  {
+    "label": "Notifications",
+    "links": [
+      {
+        "slug": "notifications",
+        "title": "Getting Started"
+      },
+      {
+        "slug": "notifications/usage",
+        "title": "Usage"
+      },
+      {
+        "slug": "notifications/processors",
+        "title": "Processors"
+      }
+    ]
+  },
+  {
+    "label": "Authentication and identity",
+    "links": [
+      {
+        "slug": "auth",
+        "title": "Adding Authentication"
+      },
+      {
+        "title": "Included providers",
+        "links": [
+          {
+            "slug": "auth/atlassian/provider",
+            "title": "Atlassian"
+          },
+          {
+            "slug": "auth/auth0/provider",
+            "title": "Auth0"
+          },
+          {
+            "slug": "auth/aws-alb/provider",
+            "title": "AWS ALB"
+          },
+          {
+            "slug": "auth/microsoft/provider",
+            "title": "Azure"
+          },
+          {
+            "slug": "auth/microsoft/azure-easyauth",
+            "title": "Azure EasyAuth"
+          },
+          {
+            "slug": "auth/bitbucket/provider",
+            "title": "Bitbucket"
+          },
+          {
+            "slug": "auth/bitbucketServer/provider",
+            "title": "Bitbucket Server"
+          },
+          {
+            "slug": "auth/cloudflare/provider",
+            "title": "Cloudflare Access"
+          },
+          {
+            "slug": "auth/github/provider",
+            "title": "GitHub"
+          },
+          {
+            "slug": "auth/gitlab/provider",
+            "title": "GitLab"
+          },
+          {
+            "slug": "auth/google/provider",
+            "title": "Google"
+          },
+          {
+            "slug": "auth/google/gcp-iap-auth",
+            "title": "Google IAP"
+          },
+          {
+            "slug": "auth/guest/provider",
+            "title": "Guest"
+          },
+          {
+            "slug": "auth/oauth2-proxy/provider",
+            "title": "OAuth2Proxy"
+          },
+          {
+            "slug": "auth/okta/provider",
+            "title": "Okta"
+          },
+          {
+            "slug": "auth/onelogin/provider",
+            "title": "OneLogin"
+          }
+        ]
+      },
+      {
+        "slug": "auth/identity-resolver",
+        "title": "Sign in resolvers"
+      },
+      {
+        "slug": "auth/oauth",
+        "title": "OAuth and OpenID Connect"
+      },
+      {
+        "slug": "auth/oidc",
+        "title": "OIDC provider from scratch"
+      },
+      {
+        "slug": "auth/add-auth-provider",
+        "title": "Contributing New Providers"
+      },
+      {
+        "slug": "auth/service-to-service-auth",
+        "title": "Service to Service Auth"
+      },
+      {
+        "slug": "auth/troubleshooting",
+        "title": "Troubleshooting Auth"
+      }
+    ]
+  },
+  {
+    "label": "Tooling",
+    "links": [
+      {
+        "title": "Backstage CLI",
+        "links": [
+          {
+            "slug": "tooling/cli/01-overview",
+            "title": "Overview"
+          },
+          {
+            "slug": "tooling/cli/02-build-system",
+            "title": "Build System"
+          },
+          {
+            "slug": "tooling/cli/03-commands",
+            "title": "Commands"
+          }
+        ]
+      },
+      {
+        "title": "Local Development",
+        "links": [
+          {
+            "slug": "tooling/local-dev/linking-local-packages",
+            "title": "Linking in Local Packages"
+          },
+          {
+            "slug": "tooling/local-dev/debugging",
+            "title": "Debugging Backstage"
+          },
+          {
+            "slug": "tooling/local-dev/profiling",
+            "title": "Profiling Backstage"
+          }
+        ]
+      },
+      {
+        "slug": "tooling/package-metadata",
+        "title": "Package Metadata"
+      }
+    ]
+  },
+  {
+    "label": "Designing for Backstage",
+    "links": [
+      {
+        "slug": "dls/design",
+        "title": "Design"
+      },
+      {
+        "slug": "dls/component-design-guidelines",
+        "title": "Component Design Guidelines"
+      },
+      {
+        "slug": "dls/contributing-to-storybook",
+        "title": "Contributing to Storybook"
+      },
+      {
+        "slug": "dls/figma",
+        "title": "Figma"
+      }
+    ]
+  },
+  {
+    "label": "API Reference",
+    "links": [
+      {
+        "title": "Guides",
+        "links": [
+          {
+            "slug": "api/utility-apis",
+            "title": "Utility APIs"
+          }
+        ]
+      },
+      {
+        "slug": "api/deprecations",
+        "title": "Deprecations"
+      }
+    ]
+  },
+  {
+    "label": "Tutorials",
+    "links": [
+      {
+        "slug": "tutorials/react-router-stable-migration",
+        "title": "React Router 6.0 Migration"
+      },
+      {
+        "slug": "tutorials/package-role-migration",
+        "title": "Package Role Migration"
+      },
+      {
+        "slug": "tutorials/migrating-away-from-core",
+        "title": "Migrating away from @backstage/core"
+      },
+      {
+        "slug": "tutorials/manual-knex-rollback",
+        "title": "Manual Rollback using Knex"
+      },
+      {
+        "slug": "tutorials/switching-sqlite-postgres",
+        "title": "Switching Backstage from SQLite to PostgreSQL"
+      },
+      {
+        "slug": "tutorials/using-backstage-proxy-within-plugin",
+        "title": "Using the Backstage Proxy from Within a Plugin"
+      },
+      {
+        "slug": "tutorials/yarn-migration",
+        "title": "Migration to Yarn 3"
+      },
+      {
+        "slug": "tutorials/migrate-to-mui5",
+        "title": "Migration to Material UI v5"
+      },
+      {
+        "slug": "tutorials/setup-opentelemetry",
+        "title": "Setup OpenTelemetry"
+      }
+    ]
+  },
+  {
+    "label": "Architecture Decision Records (ADRs)",
+    "links": [
+      {
+        "slug": "architecture-decisions",
+        "title": "Overview"
+      },
+      {
+        "slug": "architecture-decisions/adr001-add-adr-log",
+        "title": "ADR001 - Architecture Decision Record (ADR) log"
+      },
+      {
+        "slug": "architecture-decisions/adr002-default-catalog-file-format",
+        "title": "ADR002 - Default Software Catalog File Format"
+      },
+      {
+        "slug": "architecture-decisions/adr003-avoid-default-exports",
+        "title": "ADR003 - Avoid Default Exports and Prefer Named Exports"
+      },
+      {
+        "slug": "architecture-decisions/adr004-module-export-structure",
+        "title": "ADR004 - Module Export Structure"
+      },
+      {
+        "slug": "architecture-decisions/adr005-catalog-core-entities",
+        "title": "ADR005 - Catalog Core Entities"
+      },
+      {
+        "slug": "architecture-decisions/adr006-avoid-react-fc",
+        "title": "ADR006 - Avoid React.FC and React.SFC"
+      },
+      {
+        "slug": "architecture-decisions/adr007-use-msw-to-mock-service-requests",
+        "title": "ADR007 - Use MSW for Network Request Mocking"
+      },
+      {
+        "slug": "architecture-decisions/adr008-default-catalog-file-name",
+        "title": "ADR008 - Default Catalog File Name"
+      },
+      {
+        "slug": "architecture-decisions/adr009-entity-references",
+        "title": "ADR009 - Entity References"
+      },
+      {
+        "slug": "architecture-decisions/adr010-luxon-date-library",
+        "title": "ADR010 - Luxon Date Library"
+      },
+      {
+        "slug": "architecture-decisions/adr011-plugin-package-structure",
+        "title": "ADR011 - Plugin Package Structure"
+      },
+      {
+        "slug": "architecture-decisions/adr012-use-luxon-locale-and-date-presets",
+        "title": "ADR012 - Use Luxon Locale"
+      },
+      {
+        "slug": "architecture-decisions/adr013-use-node-fetch",
+        "title": "ADR013 - Use node-fetch"
+      },
+      {
+        "slug": "architecture-decisions/adr014-use-fetch",
+        "title": "ADR014 - Use fetch"
+      }
+    ]
+  },
+  {
+    "label": "FAQ",
+    "links": [
+      {
+        "slug": "faq",
+        "title": "Overview"
+      },
+      {
+        "slug": "faq/product",
+        "title": "Product FAQ"
+      },
+      {
+        "slug": "faq/technical",
+        "title": "Technical FAQ"
+      }
+    ]
+  },
+  {
+    "label": "Contribute",
+    "links": [
+      {
+        "slug": "contribute",
+        "title": "Contributions"
+      },
+      {
+        "slug": "contribute/project-structure",
+        "title": "Project Structure"
+      }
+    ]
+  },
+  {
+    "label": "References",
+    "links": [
+      {
+        "slug": "references/glossary",
+        "title": "Glossary"
+      }
+    ]
+  }
+]

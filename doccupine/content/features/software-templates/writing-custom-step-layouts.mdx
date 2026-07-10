@@ -1,0 +1,27 @@
+---
+title: "Writing custom step layouts"
+description: "How to override the default step form layout"
+---
+
+# Writing custom step layouts
+
+<Callout type="info">
+
+This documentation is written for the new frontend system, which is the default
+in new Backstage apps. If your Backstage app still uses the old frontend system,
+read the [old frontend system version of this guide](/features/software-templates/writing-custom-step-layouts--old)
+instead.
+
+</Callout>
+
+<Callout type="warning">
+
+Custom step layouts are not yet supported in the new frontend system. The
+scaffolder plugin does not provide an extension blueprint or input for
+registering custom layouts in the new system.
+
+If you need custom step layouts, you can continue using the
+[old frontend system](/features/software-templates/writing-custom-step-layouts--old) approach with
+`createScaffolderLayout` and the `ScaffolderLayouts` component.
+
+</Callout>
